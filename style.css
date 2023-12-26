@@ -301,6 +301,16 @@ li a:hover {
   font-size: 1.1rem;
   margin-bottom: 0.78em;
 }
+@media only screen and (min-height: 950px) {
+  .hero,
+  .aboutus,
+  .reason,
+  .trainer,
+  .price {
+    height: auto;
+    min-height: 500px;
+  }
+}
 
 @media only screen and (max-width: 950px) {
   /* body {
